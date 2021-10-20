@@ -1,0 +1,27 @@
+{
+	"name": "modulo-venta-tickets",
+	"version": "1.0.0",
+	"description": "\"# modulo-venta-tickets\"",
+	"main": "app.js",
+	"scripts": {
+		"dev": "nodemon src/app.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/Eric-Alarcon441/modulo-venta-tickets.git"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/Eric-Alarcon441/modulo-venta-tickets/issues"
+	},
+	"homepage": "https://github.com/Eric-Alarcon441/modulo-venta-tickets#readme",
+	"dependencies": {
+		"ejs": "^3.1.6",
+		"express": "^4.17.1",
+		"express-session": "^1.17.2",
+		"morgan": "^1.10.0",
+		"mysql": "^2.18.1"
+	}
+}
